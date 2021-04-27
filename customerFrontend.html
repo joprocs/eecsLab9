@@ -1,0 +1,66 @@
+<!doctype html>
+ <html>
+<header>
+    
+    <link href = "style.css" rel= "stylesheet"/>
+</header>
+
+
+<body>
+    <h1>ForShoreStore</h1>
+
+    <form action="customerBackend.php" method= "post" id= "form">
+
+        
+    
+        <p>
+            <h3>Sign into your account</h3>
+            <label for= "email"> Email: </label>
+                <input type= "text" name= "email"><br>
+            <label for= "pass">Password: </label>
+                <input type= "text" name= "pass"><br>
+
+        </p>
+
+
+        <p>
+            <b> Beach Towels </b><br>
+            <input type="number" id="bt1" name = "bt1" value="0">
+                <label for="bt1">Yellow Stripped Cotton Towel - $35</label><br>
+           
+        </p>
+
+        <p>
+            <b> Beach Balls </b><br>
+            <input type="number" id="bb1" name = "bb1" value="0">
+                <label for="bb1">Clear Rainbow Beach Ball - $29</label><br>
+            
+        </p>
+
+        <p>
+            <b> Beach Houses </b><br>
+            <input type="number" id="bh1" name = "bh1" value="0">
+                <label for="bh1"> Blue House with Legs - $1,000,000</label><br>
+           
+        </p>
+        
+
+        <p>
+            <b> Shipping </b><br>
+            <input type="radio" id="freeship" name= "ship" value="0">
+                <label for= "freeship"> Free 7 day</label><br>
+            <input type="radio" id="threeday" name= "ship" value="5">
+                <label for= "threeday"> 3 day shipping - $5</label><br>  
+            <input type="radio" id="overnite" name= "ship" value="50">
+                <label for= "overnite"> overnight shipping - $50</label><br>    
+
+        </p>
+
+        <input type="reset">
+        <input type= "submit" value = "submit">
+
+        <script src= "formChecker.js"></script>
+
+</form>
+</body>
+</html>
